@@ -25,7 +25,7 @@ app.listen(PORT, () => console.log(`The server has started on port: ${PORT}`));
 
 // set up mongoose
 mongoose.connect(
-  "mongodb://localhost:27017/Survey_project",
+  "mongodb+srv://spear:jsy123320@cluster0.gfgeulx.mongodb.net/?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
